@@ -3,7 +3,7 @@ node {
         git clone "https://github.com/CHALASS770/project1.git" ~/Desktop
     }
     stage("run callit.py"){
-        sh "python3.6 callit.py"
+        sh "callit.py"
     }
     
 }
